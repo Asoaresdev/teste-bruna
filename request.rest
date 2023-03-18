@@ -1,23 +1,23 @@
-POST http://localhost:3003/user
+POST https://teste-bruna.onrender.com/user
 Content-Type: application/json
 
 {
-    "name": "User 1",
-    "email": "user10@gmail.com",
+    "name": "User 16",
+    "email": "user16@gmail.com",
     "password": "123456789",
     "role": "ADMIN"
 }
 
 ###
-POST http://localhost:3003/user/login
+POST https://teste-bruna.onrender.com/login
 Content-Type: application/json
 
 {
-    "email": "user10@gmail.com",
+    "email": "user16@gmail.com",
     "password": "123456789"
 }
-###
 
+###
 POST http://localhost:3003/band
 Content-Type: application/json
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIyNjY1N2JjLTMxNzctNDQ2NS04ZGIzLTMwOGM4Y2VkNjI0YSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3OTA5NTEyMiwiZXhwIjoxNjc5MTEzMTIyfQ.a5_3FvePQB27pDZ0Pw312HrnF9VfzYwMG4FtZL8FmXQ
