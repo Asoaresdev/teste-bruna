@@ -1,9 +1,9 @@
-POST http://localhost:3003/user
+POST https://teste-deploy-bruna.onrender.com/user
 Content-Type: application/json
 
 {
-    "name": "User 100",
-    "email": "user100@gmail.com",
+    "name": "User teste andrea",
+    "email": "usertesteandrea@gmail.com",
     "password": "123456789",
     "role": "ADMIN"
 }

@@ -16,7 +16,7 @@ app.use("/ticket", ticketRoutes)
 app.use("/user", userRoutes)
 
 
-const server = app.listen(process.env.PORT || 3003, () => {
+const server = app.listen(3306, () => {
     if(server){
         const address = server.address() as AddressInfo;
         console.log(`Server is running in http://localhost:${address.port}`);
