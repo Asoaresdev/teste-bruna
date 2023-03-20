@@ -36,7 +36,7 @@ export class BandDataBase extends BaseDatabase{
         try{
             const queryResult = await BandDataBase.connection("BAND")
             .select("*")
-            .where({id: input.id})
+            .where({name: input.name})
 
             if (queryResult.length <1){
                 throw new BandNotFound()

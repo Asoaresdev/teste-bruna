@@ -1,36 +1,36 @@
-POST https://teste-bruna.onrender.com/user
+POST http://localhost:3003/user
 Content-Type: application/json
 
 {
-    "name": "User 16",
-    "email": "user16@gmail.com",
+    "name": "User 100",
+    "email": "user100@gmail.com",
     "password": "123456789",
     "role": "ADMIN"
 }
 
 ###
-POST https://teste-bruna.onrender.com/login
+POST http://localhost:3003/user/login
 Content-Type: application/json
 
 {
-    "email": "user16@gmail.com",
+    "email": "user100@gmail.com",
     "password": "123456789"
 }
-
 ###
+
 POST http://localhost:3003/band
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIyNjY1N2JjLTMxNzctNDQ2NS04ZGIzLTMwOGM4Y2VkNjI0YSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3OTA5NTEyMiwiZXhwIjoxNjc5MTEzMTIyfQ.a5_3FvePQB27pDZ0Pw312HrnF9VfzYwMG4FtZL8FmXQ
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE2ZjJhMDA1LTczYzQtNGM3MS05OTYzLTFhMjBlNGJiMGNkMCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3OTMyOTMyMywiZXhwIjoxNjc5MzQ3MzIzfQ.FeUuNvFYUA57brTFAUCLJYBwqV_CqlrCdsMmu-3OpwU
 
 {
-    "name": "Detonautas",
+    "name": "Charlie Brown Jr",
     "music_genre": "Rock",
-    "responsible": "Tico Santa Cruz"
+    "responsible": "Chorão teste"
 
 }
 
 ###
-GET http://localhost:3003/band/6fefc501-5619-4eaa-9347-c733cd121acc
+GET http://localhost:3003/band/Pitty
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZmM0ZDkxLTQ4MjMtNDAzYy1iYWU3LWYyNWY3OTcwNDBhNyIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY3OTAwMzgyNCwiZXhwIjoxNjc5MDIxODI0fQ.yS1Xx2FFWZSzV_phPSmih1w92GUFDt_8EpdG9ouU9uQ
 
 ###
